@@ -34,7 +34,9 @@ Automation script for output validation in programming contest form
     ./testpc.sh name.cpp
 
 これにより，name.cpp.inを入力にしたとき，出力がname.cpp.outと一致するのかチェックする．
-一致する場合にはCorrect,不一致の場合はIncorrectが出力される
+* 一致する場合にはCorrect
+* 不一致の場合はIncorrect
+が出力される
 
 ## 手動デバッグするとき
 testpc.shを使うと標準出力がファイルに行ってしまってみにくいときなど
