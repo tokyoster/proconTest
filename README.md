@@ -18,8 +18,17 @@ Automation script for output validation in programming contest form
 の２点を作成した．
 
 
+動作環境
+==========
+ruby がインストールされていること
+
+
+
 使用方法
 ==========
+必要ならstart.sh, testpc.shに実行権限を与えておく
+* chmod 755 start.sh
+* chmod 755 testpc.sh
 
 ## スケルトンファイル生成
     ./start.sh name.cpp
